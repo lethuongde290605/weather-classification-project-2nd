@@ -1,9 +1,9 @@
 import torch
 import torch.optim as optim
 import yaml
-from data.dataloader import get_dataloaders
-from models.model import WeatherCNN
-from losses.loss import WeatherLoss
+from src.data.dataloader import get_dataloaders
+from src.models.model import WeatherCNN
+from src.losses.loss import WeatherLoss
 from trainer import Trainer  # Import Trainer mới
 
 def main():
