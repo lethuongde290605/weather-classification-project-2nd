@@ -1,0 +1,13 @@
+data:
+  root_dir: 'dataset/'  # Thay bằng path dữ liệu thực tế của bạn
+  batch_size: 32
+
+training:
+  lr: 0.001
+  epochs: 10
+
+model:
+  num_classes: auto  # Sẽ tự detect từ data
+
+device: 'cuda'  # Hoặc 'cpu' nếu không có GPU
+checkpoint_path: 'checkpoints/model.pth'
